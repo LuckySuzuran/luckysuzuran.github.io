@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Placeholder portrait — replace with your own photo</title>
+  <defs><clipPath id="circle"><circle cx="80" cy="80" r="80"/></clipPath></defs>
+  <g clip-path="url(#circle)">
+    <path fill="#edf2e9" d="M0 0h160v160H0z"/>
+    <circle cx="126" cy="35" r="28" fill="#dce8d7"/>
+    <path fill="#cadacb" d="M0 120 40 78l43 42 33-32 44 39v33H0z"/>
+    <path fill="#476851" d="M24 160c0-36 21-55 56-55s56 19 56 55z"/>
+    <path fill="#d8c6ac" d="M68 91h24v26c-7 9-17 9-24 0z"/>
+    <ellipse cx="80" cy="72" rx="29" ry="34" fill="#e7d5bc"/>
+    <path fill="#39483d" d="M50 69c-3-26 9-40 30-40 25 0 35 18 29 42l-9-12c-17 4-28-3-32-7L53 75z"/>
+    <path fill="none" stroke="#53694f" stroke-width="2" d="M69 89c7 5 15 5 22 0"/>
+    <circle cx="69" cy="74" r="2" fill="#39483d"/><circle cx="91" cy="74" r="2" fill="#39483d"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+{% assign video_src = include.src %}
+{% assign video_prefix = video_src | slice: 0, 1 %}
+{% assign video_pair = video_src | slice: 0, 2 %}
+{% if video_prefix == '/' and video_pair != '//' %}{% assign video_src = video_src | relative_url %}{% endif %}
+{% assign video_type = 'video/mp4' %}
+{% if include.src contains '.webm' %}{% assign video_type = 'video/webm' %}{% endif %}
+{% assign poster = include.poster %}
+{% assign poster_prefix = poster | slice: 0, 1 %}
+{% assign poster_pair = poster | slice: 0, 2 %}
+{% if poster_prefix == '/' and poster_pair != '//' %}{% assign poster = poster | relative_url %}{% endif %}
+<figure class="media-figure video-figure"{% if include.width %} style="max-width: {{ include.width | escape }};"{% endif %}>
+  <video autoplay loop muted playsinline preload="metadata" controls aria-label="{{ include.alt | default: include.caption | default: 'Silent looping video' | escape }}"{% if poster %} poster="{{ poster | escape }}"{% endif %}>
+    <source src="{{ video_src | escape }}" type="{{ video_type }}">
+    Your browser cannot play this video. <a href="{{ video_src | escape }}">Download the clip</a>.
+  </video>
+  {% if include.caption %}<figcaption>{{ include.caption | escape }}</figcaption>{% endif %}
+</figure>

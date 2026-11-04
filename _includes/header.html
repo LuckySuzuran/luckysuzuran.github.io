@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title | escape }}<span class="name-dot" aria-hidden="true">.</span></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active" aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} class="active" aria-current="page"{% endif %}>Publications</a>
+      <a href="{{ '/tech/' | relative_url }}"{% if page.url == '/tech/' or page.category == 'tech' %} class="active"{% if page.url == '/tech/' %} aria-current="page"{% endif %}{% endif %}>Tech Blog</a>
+      <a href="{{ '/life/' | relative_url }}"{% if page.url == '/life/' or page.category == 'life' %} class="active"{% if page.url == '/life/' %} aria-current="page"{% endif %}{% endif %}>Personal Blog</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,60 @@
+# Illustrative records only — replace with your own papers.
+# The name matching author.name in _config.yml is automatically bolded.
+# Leave pdf/code empty to show a quiet placeholder instead of a broken link.
+- title: "Learning to reason with verifiable feedback"
+  authors: "Your Name, Alex Example, and Sam Example"
+  venue: "Example research manuscript · not a real publication"
+  year: 2026
+  tags: [LLM, RL]
+  pdf: ""
+  code: ""
+  abstract: >-
+    This illustrative abstract explores how an agent might use verifiable feedback
+    to improve multi-step reasoning. A real abstract would describe the question,
+    method, evaluation, and principal findings. Replace this record with your own
+    work before publishing your academic profile.
+  bibtex: |
+    @misc{yourname2026feedback,
+      title  = {Learning to reason with verifiable feedback},
+      author = {Your Name and Alex Example and Sam Example},
+      year   = {2026},
+      note   = {Illustrative placeholder; not a real publication}
+    }
+
+- title: "A smaller footprint for language model inference"
+  authors: "Alex Example and Your Name"
+  venue: "Example systems study · not a real publication"
+  year: 2025
+  tags: [LLM, Systems]
+  pdf: ""
+  code: ""
+  abstract: >-
+    An example entry for work at the intersection of language models and efficient
+    systems. Use this space to explain your approach, what you measured, and the
+    tradeoffs you observed. This text makes no claim about an actual experiment.
+  bibtex: |
+    @misc{example2025footprint,
+      title  = {A smaller footprint for language model inference},
+      author = {Alex Example and Your Name},
+      year   = {2025},
+      note   = {Illustrative placeholder; not a real publication}
+    }
+
+- title: "Building environments that reward exploration"
+  authors: "Your Name and Sam Example"
+  venue: "Example working paper · not a real publication"
+  year: 2025
+  tags: [RL]
+  pdf: ""
+  code: ""
+  abstract: >-
+    A sample publication about designing useful learning environments. Replace
+    this paragraph with a concise summary of your own research. Multiple topic
+    tags can be combined on an entry, and the filter menu updates automatically.
+  bibtex: |
+    @misc{yourname2025exploration,
+      title  = {Building environments that reward exploration},
+      author = {Your Name and Sam Example},
+      year   = {2025},
+      note   = {Illustrative placeholder; not a real publication}
+    }

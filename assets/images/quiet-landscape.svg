@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">A quiet alpine evening</title><desc id="desc">Original illustration of a lake, layered mountains, and pine trees under a soft sunset.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e8eee3"/><stop offset="1" stop-color="#f6e8ce"/></linearGradient><linearGradient id="water" x2="0" y2="1"><stop stop-color="#c0d4ca"/><stop offset="1" stop-color="#7daca1"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h1000v560H0z"/>
+  <circle cx="720" cy="142" r="52" fill="#ebc78c"/>
+  <path d="m0 298 140-125 114 94L425 92l183 185 119-88 147 116 126-82v337H0z" fill="#b5c5b5"/>
+  <path d="m330 190 95-98 100 101-78-39-28 22-30-18z" fill="#e6ede3"/>
+  <path d="m0 343 172-79 150 77 151-97 206 105 157-71 164 50v232H0z" fill="#7c9d88"/>
+  <path d="M0 359c172-32 310 17 491-5s342-11 509 4v202H0z" fill="url(#water)"/>
+  <g stroke="#dbe6d8" stroke-width="3" opacity=".55"><path d="M415 395h183M536 413h208M328 440h221M622 474h172M201 497h139"/></g>
+  <path d="M0 408c107-36 170-27 235 4s89 65 171 65c-138 5-227 46-264 83H0z" fill="#426d59"/>
+  <path d="M1000 426c-86 1-115 37-190 45s-97 41-143 89h333z" fill="#345e4e"/>
+  <g fill="#294c3e"><path d="m105 235-47 95h27l-42 79h41v76h21v-76h43l-42-79h28z"/><path d="m185 308-35 67h20l-32 59h29v55h17v-55h32l-31-59h20z"/><path d="m902 269-44 86h26l-40 74h39v71h20v-71h39l-39-74h25z"/></g>
+  <g fill="#769580"><ellipse cx="333" cy="495" rx="17" ry="5"/><ellipse cx="313" cy="506" rx="9" ry="3"/></g>
+  <text x="950" y="528" text-anchor="end" font-family="Georgia,serif" font-size="17" fill="#e5ecdf" letter-spacing="2">a quiet moment</text>
+</svg>

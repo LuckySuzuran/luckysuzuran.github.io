@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" role="img" aria-labelledby="title desc">
+  <title id="title">Gradient descent on a quadratic</title><desc id="desc">The curve L(w) equals (w minus 3) squared, with steps from w equals zero toward its minimum at three.</desc>
+  <rect width="800" height="400" rx="12" fill="#f7f9f5"/>
+  <g stroke="#e0e8df" stroke-width="1"><path d="M80 88h650M80 174h650M80 260h650M210 50v280M340 50v280M470 50v280M600 50v280"/></g>
+  <path d="M80 50v280h650" fill="none" stroke="#819486" stroke-width="1.5"/>
+  <path d="M80 60Q275 600 470 60" transform="translate(130 0)" fill="none" stroke="#28644d" stroke-width="3"/>
+  <g fill="#b37942" stroke="#fff" stroke-width="2"><circle cx="210" cy="60" r="6"/><circle cx="288" cy="233" r="6"/><circle cx="335" cy="295" r="6"/><circle cx="363" cy="317" r="6"/><circle cx="380" cy="325" r="6"/><circle cx="390" cy="328" r="5"/></g>
+  <path d="m216 77 63 140m15 28 33 39m15 17 14 11" fill="none" stroke="#b37942" stroke-width="2" stroke-dasharray="4 4"/>
+  <g font-family="system-ui,sans-serif" font-size="15" fill="#626f63"><text x="30" y="52">L(w)</text><text x="740" y="336">w</text><text x="202" y="355">0</text><text x="399" y="355">3</text><text x="255" y="85">start here</text><text x="470" y="297">minimum</text></g>
+</svg>

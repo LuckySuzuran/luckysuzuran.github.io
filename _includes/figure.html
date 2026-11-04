@@ -1,0 +1,8 @@
+{% assign figure_src = include.src %}
+{% assign figure_prefix = figure_src | slice: 0, 1 %}
+{% assign figure_pair = figure_src | slice: 0, 2 %}
+{% if figure_prefix == '/' and figure_pair != '//' %}{% assign figure_src = figure_src | relative_url %}{% endif %}
+<figure class="media-figure"{% if include.width %} style="max-width: {{ include.width | escape }};"{% endif %}>
+  <img src="{{ figure_src | escape }}" alt="{{ include.alt | default: '' | escape }}" loading="lazy" decoding="async"{% if include.height %} height="{{ include.height | escape }}"{% endif %}>
+  {% if include.caption %}<figcaption>{{ include.caption | escape }}</figcaption>{% endif %}
+</figure>

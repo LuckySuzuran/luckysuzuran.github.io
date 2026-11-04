@@ -1,0 +1,54 @@
+title: "LuckySuzuran"
+email: "zhanghan.suzuran@gmail.com"
+description: "Personal homepage, tech notes, and playground."
+url: "https://luckysuzuran.github.io"
+baseurl: "" # Use "/repository-name" for a GitHub Pages project site.
+lang: en
+timezone: Asia/Shanghai
+
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: null # Leave math delimiters for the client-side KaTeX renderer.
+
+author:
+  name: "Han Zhang"
+  role: "Research, code & everyday curiosities"
+  avatar: /assets/images/avatar.svg
+  location: "Somewhere, Earth"
+
+social:
+  github: "https://github.com/luckysuzuran"
+  scholar: "" # Paste your full Google Scholar profile URL here.
+  orcid: "" # Optional full ORCID profile URL.
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - WRITING_GUIDE.md
+  - CLAUDE.md
+  - agent.md
+  - AGENTS.md
+  - scripts
+  - node_modules
+  - package.json
+  - package-lock.json
+  - vendor
+  - .tools
+  - .preview
+  - .bundle
